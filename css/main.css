@@ -151,14 +151,44 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  text-shadow: 1px 1px 3px #000;
-  font-size: 1.25em;
+  text-shadow: 1px 1px 3px #70706f;
+  font-size: 1.1em;
   height: auto;
   line-height: 1.5em;
   /* width: 30%; */
 }
 
+footer {
+    height: 10em;
+}
+footer .social-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 0 0;
+}
 
+
+.icons {
+    color: #ffa500;
+    font-size: 1.1em;
+    margin-right: .5em;
+    padding: 1em;
+    transition: all 0.3s ease;
+}
+
+.icons:hover{
+    background: #ffa500;
+    color: #000;
+}
+
+.copy {
+    color: #ffa500;
+    display: flex;
+    justify-content: center;
+
+}
 
 
 /* ==========================================================================
