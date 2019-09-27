@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #232225;
+  background-color: #272424;
   height: 100%;
   width: 100%;
 }
@@ -172,8 +172,8 @@ footer .social-media {
 
 .icons {
     color: #ffa500;
-    font-size: 1.1em;
-    margin-right: .5em;
+    font-size: 1em;
+    margin-right: 1em;
     padding: 1em;
     transition: all 0.3s ease;
 }
@@ -185,10 +185,12 @@ footer .social-media {
 
 .copy {
     color: #ffa500;
-    display: flex;
-    justify-content: center;
+    font-size: .8em;
+    text-align: center;
+    margin: 0 auto;
 
 }
+
 
 
 /* ==========================================================================
